@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+}
+  
+#fondo{
+    width: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -20;
+}
+#principal{
+    width: 600px;
+    padding: 25px;
+    border: 3px solid white;
+    color: white;
+    text-align: center ;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#principal p{
+    margin: 10px;
+    font-family: "Caveat";
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+}
+body{
+    background-color: wheat;
+}
+header{
+    border-bottom: 8px dotted rgb(53, 13, 13);
+    border: 1px solid black;
+    background-image: url(img/fondo2.jpg);
+    background-position: center;
+    border-radius: 15px;
+}
+header nav{
+    background-color: #a18a61;
+    
+}
+h1{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 100px;
+}
+h1 a{
+    text-decoration: none;
+    color: #d6d6d6;
+    transition: text-shadow 0.7s, color 0.7s;
+
+}
+
+h1 a:hover{
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    font-style: italic;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#menu li{
+    list-style-type: none;
+    margin: 10px;
+}
+#menu li a{
+    text-decoration: none;
+    margin: 15px;
+    padding: 45px;
+    color: #8e0000;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "Permanent Marker", cursive;
+    transition: text-shadow 0.7s, color 0.7s;
+    
+}
+#menu li a:hover{
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    text-decoration: underline;
+    color: #787878;
+    
+}
+main{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+#imagen_blog img{
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    border-radius: 40px;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+article img{
+    width: 400px;
+    border-radius: 50px;
+    
+}
+section h2{
+    font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+article{
+    padding: 20px;
+}
+article h3{
+    font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: underline dotted;
+}
+article p{
+    font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 50px;
+}
+#imgb1{
+    float: right;
+    padding: 15px;
+}
+#imgb2{
+    float: left;
+    padding: 15px;
+}
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure{
+    padding: 20px;
+    text-align: center;
+}
+figure img{
+    width: 200px;
+    padding: 5px black;
+    box-shadow: 5px 5px 5px grey;
+    background-color: none;
+}
+figure img:hover{
+    width: 230px;
+    padding: 5px black;
+    box-shadow: 5px 5px 5px grey;
+    background-color: none;
+}
+figcaption{
+    padding: 15px;
+    font-size: 25px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 900;
+}
+#videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#videos p{
+  font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+#titulo_vid{
+    font-family: "Sniglet", system-ui;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 80px;
+  text-decoration: underline dotted;
+}
+#youtube, #youtube2{
+    text-align: center;
+    padding: 60px;
+    margin: 20px;
+}
+footer{
+    text-align: center;
+    padding: 0px;
+}
+#redes a{
+    padding: 15px;
+    transition: opacity 0.5s;
+}
+#redes a:hover{
+    opacity: 60%;
+}
+footer p{
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+}
